@@ -2,6 +2,7 @@
 #define domino_H_
 
 #include "gameplay.h"
+#include <string>
 
 using namespace gameplay;
 
@@ -55,8 +56,16 @@ private:
      * Draws the scene each frame.
      */
     bool drawScene(Node* node);
+    void drawSplash(void* param);
 
     Scene* _scene;
+    Form* _form;
+    bool _touched;
+    int _touchX;
+    int _touchY;
+    Node* _FichaA;
+    Node* _FichaB;
+
 };
 
 #endif
