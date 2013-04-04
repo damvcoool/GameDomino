@@ -1,0 +1,312 @@
+scene
+{
+    path = res/Scene.gpb
+  
+       node Camera
+       node floor
+    {
+        material = res/scene.material#floor
+        collisionObject = res/scene.physics#staticBox
+    }
+       node wall1
+    {
+        material = res/scene.material#wall
+        collisionObject = res/scene.physics#staticBox
+    }
+        node wall2
+    {
+        material = res/scene.material#wall
+        collisionObject = res/scene.physics#staticBox
+    }
+        node wall3
+    {
+        material = res/scene.material#wall
+        collisionObject = res/scene.physics#staticBox
+    }
+        node wall4
+    {
+        material = res/scene.material#wall
+        collisionObject = res/scene.physics#staticBox
+    }
+     
+        node table
+    {
+        material = res/scene.material#table
+        collisionObject = res/scene.physics#staticBox
+    }
+//            node bag
+//    {
+//        material = res/scene.material#bag
+//        collisionObject = res/scene.physics#staticBox
+//    }
+//            node draw
+//    {
+//        material = res/scene.material#draw
+//        collisionObject = res/scene.physics#staticBox
+//    }
+/            node holder
+//    {
+//        //material = res/scene.material#holder
+//       collisionObject = res/scene.physics#staticBox
+//   }
+    
+    node ficha00
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-0
+        collisionObject = res/scene.physics#ficha
+        translate =0, 0, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    
+    node ficha01
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-1
+        collisionObject = res/scene.physics#ficha
+        translate =-2.4, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha02
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-2
+        collisionObject = res/scene.physics#ficha
+        translate =-2, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha03
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-3
+        collisionObject = res/scene.physics#ficha
+        translate =-1.6, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha04
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-4
+        collisionObject = res/scene.physics#ficha
+        translate =-1.2, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha05
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-5
+        collisionObject = res/scene.physics#ficha
+        translate =-0.8, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha06
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-0-6
+        collisionObject = res/scene.physics#ficha
+        translate =-0.4, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha11
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-1
+        collisionObject = res/scene.physics#ficha
+        translate =0.0, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha12
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-2
+        collisionObject = res/scene.physics#ficha
+        translate =0.4, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha13
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-3
+        collisionObject = res/scene.physics#ficha
+        //translate = 0, 0, 10
+        translate =0.8, 1.8, 2
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha14
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-4
+        collisionObject = res/scene.physics#ficha
+        translate =1.2, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha15
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-5
+        collisionObject = res/scene.physics#ficha
+        translate =1.6, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha16
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-1-6
+        collisionObject = res/scene.physics#ficha
+        translate =2, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha22
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-2-2
+        collisionObject = res/scene.physics#ficha
+        translate =2.4, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha23
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-2-3
+        collisionObject = res/scene.physics#ficha
+        translate =2.8, 1.8, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha24
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-2-4
+        collisionObject = res/scene.physics#ficha
+        translate =-2.8, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha25
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-2-5
+        collisionObject = res/scene.physics#ficha
+        translate =-2.4, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha26
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-2-6
+        collisionObject = res/scene.physics#ficha
+        translate =-2, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha33
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-3-3
+        collisionObject = res/scene.physics#ficha
+        translate =-1.6, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha34
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-3-4
+        collisionObject = res/scene.physics#ficha
+        translate =-1.2, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha35
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-3-5
+        collisionObject = res/scene.physics#ficha
+        translate =-0.8, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha36
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-3-6
+        collisionObject = res/scene.physics#ficha
+        translate =-0.4, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha44
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-4-4
+        collisionObject = res/scene.physics#ficha
+        translate =0, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha45
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-4-5
+        collisionObject = res/scene.physics#ficha
+        translate =0.4, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha46
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-4-6
+        collisionObject = res/scene.physics#ficha
+        translate =0.8, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha55
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-5-5
+        collisionObject = res/scene.physics#ficha
+        translate =1.2, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha56
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-5-6
+        collisionObject = res/scene.physics#ficha
+        translate =1.6, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+    node ficha66
+    {
+        url = res/Domino.gpb#ficha
+        material = res/scene.material#ficha-6-6
+        collisionObject = res/scene.physics#ficha
+        translate =2, 1.2, 2
+        //translate = 0, 0, 10
+        scale = 0.2, 0.2, 0.2
+    }
+
+    
+        physics
+    {
+        gravity = 0.0, 0.0, -9.8
+    }
+}

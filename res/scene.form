@@ -1,0 +1,31 @@
+form domino
+{
+    theme = res/default.theme
+    style = noBorder
+    autoWidth = true
+    autoHeight = true
+    
+    button shapeButton
+    {
+        style = buttonStyle
+        autoWidth = true
+        height = 40
+        text = Sphere
+    }
+    
+    button throwButton : shapeButton
+    {
+        text = Throw
+    }
+    
+    button wireframeButton  : shapeButton
+    {
+        text = Solid
+    }
+
+    button drawDebugButton : shapeButton
+    {
+        text = Normal
+    }
+
+}
