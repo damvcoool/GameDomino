@@ -57,7 +57,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0, 0, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     
     node ficha01
@@ -67,7 +67,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-2.4, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha02
     {
@@ -76,7 +76,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-2, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha03
     {
@@ -85,7 +85,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-1.6, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha04
     {
@@ -94,7 +94,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-1.2, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha05
     {
@@ -103,7 +103,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-0.8, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha06
     {
@@ -112,7 +112,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-0.4, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha11
     {
@@ -121,7 +121,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0.0, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha12
     {
@@ -130,7 +130,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0.4, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha13
     {
@@ -139,7 +139,7 @@ scene
         collisionObject = res/scene.physics#ficha
         //translate = 0, 0, 10
         translate =0.8, 1.8, 2
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha14
     {
@@ -148,7 +148,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =1.2, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha15
     {
@@ -157,7 +157,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =1.6, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha16
     {
@@ -166,7 +166,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =2, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha22
     {
@@ -175,7 +175,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =2.4, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha23
     {
@@ -184,7 +184,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =2.8, 1.8, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha24
     {
@@ -193,7 +193,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-2.8, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha25
     {
@@ -202,7 +202,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-2.4, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha26
     {
@@ -211,7 +211,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-2, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha33
     {
@@ -220,7 +220,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-1.6, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha34
     {
@@ -229,7 +229,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-1.2, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha35
     {
@@ -238,7 +238,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-0.8, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha36
     {
@@ -247,7 +247,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =-0.4, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha44
     {
@@ -256,7 +256,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha45
     {
@@ -265,7 +265,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0.4, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha46
     {
@@ -274,7 +274,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =0.8, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha55
     {
@@ -283,7 +283,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =1.2, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha56
     {
@@ -292,7 +292,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =1.6, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
     node ficha66
     {
@@ -301,7 +301,7 @@ scene
         collisionObject = res/scene.physics#ficha
         translate =2, 1.2, 2
         //translate = 0, 0, 10
-        scale = 0.2, 0.2, 0.2
+        scale = 0.12, 0.12, 0.12
     }
 
     
