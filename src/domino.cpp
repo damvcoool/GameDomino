@@ -12,6 +12,7 @@ domino::domino()
 
 void domino::initialize()
 {
+
 	// Display Intro Screen
 	displayScreen(this, &domino::drawSplash, NULL, 1000L);
 
@@ -41,6 +42,7 @@ void domino::render(float elapsedTime)
     // Clear the color and depth buffers
     clear(CLEAR_COLOR_DEPTH, Vector4::zero(), 1.0f, 0);
 
+    // Visit all the nodes in the scene for drawing
     // Visit all the nodes in the scene for drawing
     _scene->visit(this, &domino::drawScene);
 }
